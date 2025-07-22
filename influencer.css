@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     font-family: "Poppins";
 }
@@ -23,13 +23,13 @@
     font-weight: 600;
     border-radius: 70px;
     border: none;
-    
+
 }
 
 .banner-profile {
     background-image: url("./images/Circle\ design.svg");
     background-repeat: no-repeat;
-    background-position: right bottom ;
+    background-position: right bottom;
     margin-left: 30px;
 
 }
@@ -38,8 +38,9 @@
 .navbar-container {
     justify-content: space-between;
     padding: 80px 0 0 0;
-   
+
 }
+
 .nav-item {
     list-style: none;
     margin-right: 30px;
@@ -63,14 +64,16 @@
     align-items: center;
 
 }
+
 .banner-title {
     font-size: 3.25rem;
     font-weight: bold;
     color: #3a3a3a;
 }
+
 .banner-content {
     width: 582px;
-    
+
 }
 
 .banner-profile {
@@ -83,11 +86,11 @@
 
 /* sponsor style */
 
-.our-sponsors{
+.our-sponsors {
     max-width: 1340px;
     margin: 0 auto;
     padding: 100px 0;
-    
+
 
 }
 
@@ -95,21 +98,54 @@
     height: 100px;
     justify-content: space-between;
     align-items: center;
-    /* background-color: rgba(192, 204, 218, 0.1); */
-     /* border-image: 
-     linear-gradient(
-      to top , 
-      red, 
-      rgba(0, 0, 0, 0)
-    ) 1 100%; 
+    border-width: 1px 0;
+    /* top and bottom only */
     border-style: solid;
-      border-left: 0;
-  border-right: 0;
-  border-bottom: 0; */
+    border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(141, 135, 135, 0.528), rgba(0, 0, 0, 0)) 1;
+    border-image-slice: 1;
 
-  border-width: 1px 0; /* top and bottom only */
-  border-style: solid;
-  border-image: linear-gradient(to right,rgba(0, 0, 0, 0), rgba(141, 135, 135, 0.528), rgba(0, 0, 0, 0)) 1;
-  border-image-slice: 1;
-   
+}
+
+
+/* popullar collection style */
+
+
+.collection-section {
+    max-width: 1100px;
+    margin: 10px auto;
+
+}
+
+.collection-title {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.collection {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 15px 20px rgba(0, 0, 0, 0.1);
+    
+}
+.collection img {
+    width: 100%;
+}
+
+.collection-see-more {
+    color: #E02C6D;
+    gap: 10px;
+    display: flex;
+    font-size: 1.25rem;
+    margin: 30px;
+    justify-content: end;
 }
