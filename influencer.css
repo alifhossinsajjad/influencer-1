@@ -67,20 +67,49 @@
     font-size: 3.25rem;
     font-weight: bold;
     color: #3a3a3a;
-    margin-top: 100px;
 }
 .banner-content {
-    max-width: 750px;
-    margin-top: 80px;
+    width: 582px;
     
 }
 
 .banner-profile {
-    /* border: 10px solid #E02C6D; */
     width: 475px;
     height: 475px;
-    margin-top: 50px;
 
 }
 
 
+
+/* sponsor style */
+
+.our-sponsors{
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 100px 0;
+    
+
+}
+
+.sponsor-companies {
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgba(192, 204, 218, 0.1); */
+     /* border-image: 
+     linear-gradient(
+      to top , 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%; 
+    border-style: solid;
+      border-left: 0;
+  border-right: 0;
+  border-bottom: 0; */
+
+  border-width: 1px 0; /* top and bottom only */
+  border-style: solid;
+  border-image: linear-gradient(to right,rgba(0, 0, 0, 0), rgba(141, 135, 135, 0.528), rgba(0, 0, 0, 0)) 1;
+  border-image-slice: 1;
+   
+}
