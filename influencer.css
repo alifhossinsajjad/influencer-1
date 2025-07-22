@@ -4,3 +4,33 @@
     box-sizing: border-box;
     font-family: "Poppins";
 }
+
+/* sheard style */
+
+.dark-1 {
+    color: #3a3a3a;
+}
+
+.display-flex {
+    display: flex;
+}
+
+/* nav section */
+.navbar-container {
+    justify-content: space-between;
+}
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar-container,
+.banner {
+    max-width: 1600px;
+    margin: 0 auto;
+}
