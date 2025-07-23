@@ -165,3 +165,9 @@
     margin: 30px;
     justify-content: end;
 }
+
+.feedback-icon {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
