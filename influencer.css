@@ -146,7 +146,7 @@
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 20px;
-    
+
 }
 
 .collection {
@@ -154,8 +154,9 @@
     padding: 25px;
     border-radius: 10px;
     box-shadow: 10px 5px 15px 20px rgba(0, 0, 0, 0.1);
-    
+
 }
+
 .collection img {
     width: 100%;
 }
@@ -184,6 +185,10 @@
 
 /* gajets section styles */
 
+.gajets-title {
+    font-size: 2.5rem;
+}
+
 .gajets-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -193,9 +198,37 @@
     margin: 100px auto;
 }
 
-.see-more-gajets  {
+.see-more-gajets {
     justify-content: end;
     text-decoration: none;
     color: #E02C6D;
     gap: 10px;
+}
+
+
+
+/* fotter section style */
+.footer-section {
+    width: 100%;
+    height: auto;
+    background-color: #0e1038;
+}
+
+.footer-container {
+    text-align: center;
+    padding: 10px 0 0 0;
+    color: white;
+}
+
+.foeter-liks-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.footer-leader {
+    padding: 40px 0;
 }
