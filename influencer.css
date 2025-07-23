@@ -23,6 +23,8 @@
     font-weight: 600;
     border-radius: 70px;
     border: none;
+    gap: 20px;
+    justify-content: center;
 
 }
 
@@ -191,9 +193,9 @@
     margin: 100px auto;
 }
 
-.gajets-content a {
+.see-more-gajets  {
     justify-content: end;
     text-decoration: none;
     color: #E02C6D;
-
+    gap: 10px;
 }
